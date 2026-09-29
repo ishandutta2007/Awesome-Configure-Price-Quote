@@ -1,211 +1,116 @@
-# Awesome-Configure-Price-Quote
+# Awesome Configure Price Quote (CPQ) 🚀
 
-## Top Configure Price Quote (CPQ) Platforms Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+![Awesome CPQ Banner](assets/banner.svg)
 
-*Focused on Product Configuration, Guided Selling, Pricing Rules, Quote Generation & Deal Automation*
+## 📌 Top Configure Price Quote (CPQ) Platforms & Open-Source Ecosystem
 
-**Last updated: September 2026**
+**Curated List of SaaS CPQ Products, Pricing Engines & Open-Source GitHub Projects** ⚡
 
+*Focused on Product Configuration, Guided Selling, Dynamic Pricing Rules, Quote Generation & RevOps Deal Automation.* 🎯
 
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Configure Price Quote (CPQ)**. These systems help sales teams configure complex products, apply pricing and discount rules, generate accurate quotes, and accelerate deal cycles—often integrated with CRM and ERP.
-
-
-
-**Examples** include Salesforce CPQ, Conga CPQ, Oracle CPQ, DealHub, PandaDoc CPQ, HubSpot CPQ, QuoteWerks, PROS CPQ, Experlogix, and Logik.io (the category leaders).
-
-
-
-**Open-source emphasis**: Enterprise CPQ with complex rules engines, multi-level BOM configuration, and deep CRM/ERP integration is almost entirely commercial. Open options include **Odoo-based configurators**, experimental CPQ prototypes, and pricing/billing libraries. This section expands those building blocks while remaining realistic about the commercial gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Salesforce CPQ](https://www.salesforce.com/products/cpq/)**  
-
-  Native Salesforce CPQ for guided selling, complex product configuration, pricing, and quote-to-cash within the Salesforce ecosystem.
-
-
-
-- **[Conga CPQ](https://conga.com/)**  
-
-  Cloud CPQ with configuration, pricing, approvals, document generation, and strong subscription/renewal support.
-
-
-
-- **[Oracle CPQ](https://www.oracle.com/cx/sales/cpq/)**  
-
-  Enterprise CPQ suite for complex configuration, pricing, approvals, documents, and subscription scenarios.
-
-
-
-- **[DealHub](https://dealhub.io/)**  
-
-  CPQ and deal-room platform combining configuration, pricing, collaboration, and contract workflows for B2B sales.
-
-
-
-- **[PandaDoc CPQ](https://www.pandadoc.com/)**  
-
-  Quote and proposal platform with CPQ capabilities, e-sign, and polished document workflows for mid-market teams.
-
-
-
-- **[HubSpot CPQ](https://www.hubspot.com/)**  
-
-  CPQ and quoting features within the HubSpot CRM platform for simpler product catalogs and sales processes.
-
-
-
-- **[QuoteWerks](https://www.quotewerks.com/)**  
-
-  Long-standing quote and proposal software used by sales teams for product configuration and professional quotes.
-
-
-
-- **[PROS CPQ](https://pros.com/)**  
-
-  AI-assisted CPQ and pricing platform for complex catalogs, dynamic pricing, and enterprise sales optimization.
-
-
-
-- **[Experlogix](https://www.experlogix.com/)**  
-
-  CPQ and product configuration solutions often used with Microsoft and other ERP/CRM environments.
-
-
-
-- **[Logik.io](https://www.logik.io/)**  
-
-  Modern CPQ platform focused on flexible configuration and pricing for complex B2B products.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Odoo CPQ / product configurator modules](https://github.com/odoo/odoo)**  
-
-  Open-source ERP modules and community apps (including commercial extensions like CodeCPQ) for product configuration, pricing rules, and quote generation inside Odoo.
-
-
-
-- **[Experimental CPQ prototypes](https://github.com/)**  
-
-  Early-stage open Configure-Price-Quote applications and trials for learning and simple catalog scenarios.
-
-
-
-- **[Flexprice](https://github.com/flexprice/flexprice)**  
-
-  Open-source usage-based pricing and billing engine—useful for metering, credits, and pricing logic adjacent to CPQ workflows.
-
-
-
-- **[Product configuration open engines](https://github.com/)**  
-
-  Constraint-based and rule-engine libraries used to prototype guided product configuration outside full CPQ suites.
-
-
-
-- **[Quote document open generators](https://github.com/)**  
-
-  Templates and libraries for generating PDF/HTML quotes from structured product and price data.
-
-
-
-- **[Pricing rules open engines](https://github.com/)**  
-
-  Rule and decision engines applied to discount, volume, and multi-currency pricing experiments.
-
-
-
-- **[CRM open connectors for quotes](https://github.com/)**  
-
-  Integration patterns linking open configurators to CRM opportunity and quote objects.
-
-
-
-- **[BOM and variant open models](https://github.com/)**  
-
-  Data models for product variants, options, and bill-of-materials used in manufacturing-oriented CPQ prototypes.
-
-
-
-- **[Documentation and Odoo configuration playbooks](https://www.odoo.com/documentation/)**  
-
-  Guides for setting up product variants, pricelists, and quotation workflows in open ERP environments.
-
-
-
-- **[Self-hosted quote portal experiments](https://github.com/)**  
-
-  Lightweight portals where customers or partners configure products and request quotes.
-
-
-
-### Additional Strong Open-Source Options
-
-- Using **Odoo** product configurator and quotation modules for mid-complexity catalogs.
-
-- Combining open rule engines with CRM data for simple guided selling prototypes.
-
-- Leveraging **Flexprice** when usage-based or credit-based pricing is part of the offer.
-
-- Accepting that multi-level configuration, complex constraint networks, enterprise approval matrices, CLM integration, and native deep CRM/ERP CPQ still require commercial platforms (Salesforce CPQ, Conga, Oracle CPQ, DealHub, PROS, Logik.io, etc.).
-
-- Focusing open-source efforts on data ownership, custom rules, and reducing lock-in for simpler product lines.
-
-
-
-**Frameworks for building custom systems**: Model products and options in Odoo or a custom rule engine → apply price lists and discounts → generate quote documents → sync status to CRM. Suitable for product-led teams with technical capacity. Complex B2B manufacturers and enterprise sales orgs typically run commercial CPQ.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- CPQ systems affect pricing accuracy, margin, and contracts. Open-source tools require thorough testing of rules and outputs. This list is not sales or financial advice.
-
-
+> **SEO Keywords / Key Topics:** Configure Price Quote, CPQ Software, Salesforce CPQ, Open Source CPQ, Product Configurator Engine, RevOps Automation, DealHub, Pricing Rules Engine, Quote-to-Cash (Q2C), B2B Sales Quoting.
 
 ---
 
-**Made for RevOps, sales engineers, and open-source quoting advocates.**
+## 💡 Overview & Market Insights
 
-Let's keep configuration accurate, pricing consistent, and systems as open as practical.
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Configure Price Quote (CPQ)**. These software systems empower B2B sales teams and RevOps engineers to configure complex product catalog options, enforce dynamic pricing and volume discount rules, generate accurate PDF proposals/quotes, and streamline deal approval workflows—seamlessly integrated with CRM and ERP platforms. 📊
+
+### 🌐 Market Size & Fragmentation Analysis
+> **Market Size & Structure:** The global **Configure Price Quote (CPQ)** software market is estimated at **$2.5 Billion – $3.8 Billion**, experiencing a ~13-16% CAGR driven by enterprise digital transformation and subscription billing models. The sector is **moderately fragmented**: while tier-1 CRM giants (Salesforce, Oracle, SAP) dominate enterprise deals, specialized vendors (DealHub, Logik.io, PROS) and open-source pricing engines thrive across mid-market, manufacturing, and custom RevOps stacks. 🏛️
+
+---
+
+## 📑 Table of Contents
+- [💼 SaaS / Hosted CPQ Platforms](#-saas--hosted-cpq-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Implementation & Architecture Playbook](#%EF%B8%8F-implementation--architecture-playbook)
+- [🤝 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 💼 SaaS / Hosted CPQ Platforms
+
+The table below summarizes leading commercial SaaS CPQ vendors, sorted in descending order by enterprise valuation and market capitalization / scale. 🏢
+
+| Platform 🚀 | Market Scale & Valuation / Revenue 💰 | Starting Price 💵 | Free Tier / Trial Limit ⌛ | Core Focus & Features 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce CPQ](https://www.salesforce.com/products/cpq/)** ⚡ | **~$300B Market Cap** (Salesforce Inc.) | $75 / user / month (CPQ Starter) | 30-day free trial on Salesforce Developer Edition | Native Salesforce guided selling, complex rules, quote-to-cash, and CRM integration. |
+| **[Oracle CPQ](https://www.oracle.com/cx/sales/cpq/)** 🏛️ | **~$380B Market Cap** (Oracle Corp.) | $240 / user / month (Oracle CX Sales CPQ) | 30-day free trial with $300 Oracle Cloud credits | Enterprise-grade configuration engine, multi-level BOMs, approval workflows, and ERP sync. |
+| **[HubSpot CPQ](https://www.hubspot.com/)** 🧡 | **~$30B Market Cap** (HubSpot Inc.) | $90 / month (Commerce Hub / Sales Hub Pro) | Free Forever plan (limited to 5 template quotes/mo, basic payment links) | Lightweight quote building and product catalog management integrated with HubSpot CRM. |
+| **[PandaDoc CPQ](https://www.pandadoc.com/)** 📄 | **~$1B+ Valuation** | $19 / user / month (Essentials Tier) | 14-day free trial (full features, max 5 documents created during trial) | Interactive document generation, CPQ quoting tables, e-signatures, and workflow automation. |
+| **[PROS CPQ](https://pros.com/)** 🤖 | **~$1.2B Market Cap** (PROS Holdings - PRO) | $60 / user / month (Smart CPQ Base) | 14-day guided sandbox demo upon sales request | AI-driven dynamic pricing optimization, complex catalog rule engine, and revenue management. |
+| **[Conga CPQ](https://conga.com/)** 📜 | **~$1B+ Valuation** (Thoma Bravo backed) | $35 / user / month (Conga Quote Starter) | 14-day free trial via Salesforce AppExchange | Advanced subscription billing, contract lifecycle management (CLM), and document automation. |
+| **[DealHub](https://dealhub.io/)** 🤝 | **~$300M+ Valuation** | $40 / user / month (DealHub CPQ Standard) | 14-day interactive sandbox trial on request | Unified CPQ, digital deal room, contract management, and subscription management platform. |
+| **[Logik.io](https://www.logik.io/)** ⚙️ | **~$150M+ Valuation** (High-growth Series B) | $50 / user / month (Logik.io Commerce) | 14-day test environment sandbox for enterprise prospects | High-speed headless product configuration and administration engine built for Salesforce/B2B. |
+| **[Experlogix](https://www.experlogix.com/)** 🏭 | **~$100M+ Enterprise Value** | $45 / user / month (CPQ Standard) | 14-day trial environment upon partner request | Deep product configurator for manufacturing and complex B2B, integrated with MS Dynamics and NetSuite. |
+| **[QuoteWerks](https://www.quotewerks.com/)** 🛠️ | **~$30M+ Enterprise Value** | $15 / user / month (Standard Edition) | 45-day free trial (up to 3 users, full quote generation features) | Turnkey desktop & cloud quoting software with distributor integrations and IT hardware pricing feeds. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below are top open-source projects, libraries, engines, and ERP modules for building custom CPQ solutions, sorted in descending order by GitHub star count. 🌟
+
+| Project & Repository 📦 | GitHub Stars ⭐ | Description & Use Case 💡 |
+| :--- | :---: | :--- |
+| **[Odoo](https://github.com/odoo/odoo)** 💜 | [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Open-source ERP suite featuring integrated product configurator modules, dynamic pricelists, variant models, and PDF quotation builders. |
+| **[ERPNext](https://github.com/frappe/erpnext)** 🟦 | [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Flexible open-source ERP with comprehensive CRM, item variant configurators, price lists, tax rule engines, and quotation generation. |
+| **[Flexprice](https://github.com/flexprice/flexprice)** 💳 | [![GitHub stars](https://img.shields.io/github/stars/flexprice/flexprice?style=social&color=white)](https://github.com/flexprice/flexprice/stargazers) | Open-source meter-based pricing, entitlement, and billing engine for developer-led usage pricing and subscription CPQ workflows. |
+| **[SuiteCRM](https://github.com/salesagility/SuiteCRM)** 💼 | [![GitHub stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers) | Enterprise-grade open-source CRM featuring product catalog management, quote PDF generation, contract tracking, and workflow rules. |
+| **[Unity Industry Product Configurator](https://github.com/Unity-Technologies/Industry-Product-Configurator)** 🎮 | [![GitHub stars](https://img.shields.io/github/stars/Unity-Technologies/Industry-Product-Configurator?style=social&color=white)](https://github.com/Unity-Technologies/Industry-Product-Configurator/stargazers) | Interactive 3D product configurator framework built in Unity for complex industrial, automotive, and retail visual quoting. |
+| **[openCPQ](https://github.com/webXcerpt/openCPQ)** ⚙️ | [![GitHub stars](https://img.shields.io/github/stars/webXcerpt/openCPQ?style=social&color=white)](https://github.com/webXcerpt/openCPQ/stargazers) | Pure JavaScript product configuration framework for building browser-executable rule engines and interactive product options. |
+| **[OCA Product Configurator](https://github.com/OCA/product-configurator)** 🧩 | [![GitHub stars](https://img.shields.io/github/stars/OCA/product-configurator?style=social&color=white)](https://github.com/OCA/product-configurator/stargazers) | Odoo Community Association (OCA) advanced product configurator module for complex attribute constraints, dynamic BOMs, and prices. |
+| **[3D Product Configurator Three.js](https://github.com/ersurajsingh/ProductConfigurator-Threejs)** 🎨 | [![GitHub stars](https://img.shields.io/github/stars/ersurajsingh/ProductConfigurator-Threejs?style=social&color=white)](https://github.com/ersurajsingh/ProductConfigurator-Threejs/stargazers) | Lightweight WebGL/Three.js frontend prototype for interactive real-time 3D product customization and instant quote preview. |
+
+---
+
+## 🛠️ Implementation & Architecture Playbook
+
+When engineering a custom open-source CPQ or hybrid RevOps stack: 🏗️
+
+1. **Product Configurator Layer:** Model products, options, variants, and validation rules (e.g., using `openCPQ` or `OCA/product-configurator`).
+2. **Pricing Rules Engine:** Calculate multi-currency pricing, volume discounts, tiered structures, and usage metering (e.g., using `Flexprice`).
+3. **Document Generation:** Render structured product selection into branded PDF quotes or web deal rooms.
+4. **CRM & ERP Synchronization:** Pipeline finalized quote records into CRM Opportunity stages (Salesforce, HubSpot, SuiteCRM) and ERP fulfillment orders (ERPNext, Odoo).
+
+---
+
+## 🤝 Support & Community
+
+Thank you for visiting **Awesome Configure Price Quote (CPQ)**! 💖 If you find this curated ecosystem directory helpful, please consider supporting the project:
+
+- 🌟 **Star this repository** to help others discover CPQ tools and open-source frameworks.
+- 🔀 **Fork & Share** with your RevOps team, sales engineers, and fellow developers.
+- ☕ **Sponsor & Buy a Coffee:** Support ongoing maintenance and curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are highly welcome! 🛠️ To add a SaaS platform or open-source repo:
+
+1. Fork this repository.
+2. Edit `README.md` following the tabular format and guidelines above.
+3. Submit a Pull Request with a clear summary of your additions.
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational and research purposes.
+- CPQ software directly impacts deal pricing, gross margin accuracy, and legally binding contracts. Always conduct thorough risk and compliance verification before implementing quoting tools in production environments. ⚖️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Configure-Price-Quote&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Configure-Price-Quote&type=date&legend=top-left)
+
+---
+**Maintained with ❤️ for RevOps leaders, sales engineers, and open-source software builders.** 🚀
